@@ -62,7 +62,7 @@ export default function Home() {
 
 
     </Helmet>
-      <div className="grid gap-4 xl:grid-cols-[240px_minmax(0,1fr)_300px]">
+      <div className="grid grid-cols-1 gap-4 xl:grid-cols-[240px_minmax(0,1fr)_300px]">
         <aside className="hidden h-fit space-y-3 xl:sticky xl:top-21 xl:block">
           <div className="rounded-2xl border border-slate-200 bg-white p-3 shadow-sm">
             {postsBtns.map((btn, index) => {
